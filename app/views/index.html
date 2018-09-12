@@ -2,43 +2,66 @@
 {% extends "layout.html" %}
 
 {% block pageTitle %}
-  GOV.UK Prototype Kit
+  Digital, Data and Technology events
 {% endblock %}
 
 {% block content %}
 
-  <div class="govuk-grid-row">
-    <div class="govuk-grid-column-two-thirds">
-      <h1 class="govuk-heading-xl">
-        The GOV.UK Prototype Kit
-        <span class="govuk-caption-xl">{{releaseVersion}}</span>
-      </h1>{{releaseVersion | log }}
-      <p>
-        This kit lets you rapidly create HTML prototypes of GOV.UK services.
-      </p>
+<div class="govuk-grid-row hero">
+  <div class="govuk-grid-column-two-thirds">
+    <h1 class="govuk-heading-l">Digital, Data and Technology events</h1>
+    <p class="govuk-body-l">The latest information about our upcoming events.</p>
+  </div>
+</div>
 
-      <p>
-        It contains all you need to prototype anything from simple static pages to complex, data-driven transactions.
-      </p>
-
-      <h2 class="govuk-heading-m">About this page</h2>
-
-      <p>We recommend you add links to your prototype to this page, rather than delete it.
-        You'll find this page in the kit at '/app/views/index.html'.</p>
-
-      <p>You can change the service name by editing the file '/app/config.js'.</p>
-
-      <h2 class="govuk-heading-m">Examples and documentation</h2>
-
-      <ul class="govuk-list govuk-list--bullet">
-        <li><a href="/docs/tutorials-and-examples">Example pages and documentation</a></li>
-        <li>
-          <a href="https://design-system.service.gov.uk">
-            GOV.UK Design System
-          </a>
-        </li>
-      </ul>
+<div class="govuk-grid-row lead-card">
+  <div class="govuk-grid-column-full">
+    <div class="govuk-card govuk-card--contained">
+      <div class="govuk-card__content">
+        <h3 class="govuk-heading-m">DDaT Together - 24 October 2018</h3>
+        <p>The next Together event is scheduled for 24 October 2018. Further details will be added in due course.</p>
+        <div class="govuk-card__actions">
+          <a class="govuk-button" href="#0">Book your ticket</a>
+        </div>
+      </div>
     </div>
+  </div>
+</div>
+
+<div class="govuk-grid-row">
+  <div class="govuk-grid-column-one-third">
+    <div class="govuk-card govuk-card--contained">
+      <div class="govuk-card__content">
+        <h3 class="govuk-heading-m">Roundtables</h3>
+        <p>Roundtables are opportunities for senior leaders to meet with colleagues in DDaT for informal two-way discussions.</p>
+        <div class="govuk-card__actions">
+          <a href="roundtables">Find out more about the next roundtable</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="govuk-grid-column-one-third">
+    <div class="govuk-card govuk-card--contained">
+      <div class="govuk-card__content">
+        <h3 class="govuk-heading-m">All-staff dial-in</h3>
+        <p>The next DDaT all-staff will be held later this year. In the meantime, you can ask Joanna and the leadership team questions anonymously.</p>
+        <div class="govuk-card__actions">
+          <a href="https://www.homeofficesurveys.homeoffice.gov.uk/s/DDaTquestions/">Anonymous form</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="govuk-grid-column-one-third">
+    <div class="govuk-card govuk-card--contained">
+      <div class="govuk-card__content">
+        <h3 class="govuk-heading-m">Champions events</h3>
+        <p>The Digital, Data and Technology inclusion champions </p>
+        <div class="govuk-card__actions">
+          <a href="champions">DDaT champions</a>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
 
 {% endblock %}
