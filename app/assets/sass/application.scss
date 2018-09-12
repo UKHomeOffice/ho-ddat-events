@@ -163,6 +163,7 @@ $dark-grey: #3B3B3B;
 
 .govuk-main-wrapper {
   padding-top: 15px;
+  margin-bottom: 30px;
 }
 
 .govuk-breadcrumbs {
@@ -172,7 +173,7 @@ $dark-grey: #3B3B3B;
 
 @media screen and (max-width: 640px) {
   .hero {
-    margin: 10px 0 30px 0;
+    margin: 10px 0 40px 0;
 
     .govuk-grid-column-two-thirds {
       padding: 0;
