@@ -130,6 +130,7 @@ $govuk-typography-scale: (
 
 // Components that aren't in Frontend
 @import "components/cookie-banner";
+@import "components/card";
 
 // HOME OFFICE STYLES
 
@@ -139,11 +140,46 @@ $govuk-typography-scale: (
 
 // Colour pallette
 $purple: #8F23B3;
-$background-grey: #f3f3f3;
+$background-grey: #eaeaea;
 $dark-grey: #3B3B3B;
 
 // Other styling
 .ho-body {
   background-color: $background-grey;
   font-size: 18px;
+}
+
+.hero {
+  margin: 20px 0;
+
+  .govuk-body-l {
+    font-size: 21px;
+  }
+}
+
+.govuk-grid-column-two-thirds {
+  padding: 0 0;
+}
+
+.govuk-main-wrapper {
+  padding-top: 15px;
+}
+
+.govuk-breadcrumbs {
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 640px) {
+  .hero {
+    margin: 10px 0 30px 0;
+
+    .govuk-grid-column-two-thirds {
+      padding: 0;
+    }
+
+    .govuk-body-l {
+      font-size: 18px;
+    }
+  }
 }
