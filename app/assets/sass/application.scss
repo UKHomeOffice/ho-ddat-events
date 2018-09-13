@@ -131,6 +131,7 @@ $govuk-typography-scale: (
 // Components that aren't in Frontend
 @import "components/cookie-banner";
 @import "components/card";
+@import "components/accordion";
 
 // HOME OFFICE STYLES
 
@@ -144,6 +145,8 @@ $background-grey: #eaeaea;
 $dark-grey: #3B3B3B;
 
 // Other styling
+
+// overrides
 .ho-body {
   background-color: $background-grey;
   font-size: 18px;
@@ -169,6 +172,21 @@ $dark-grey: #3B3B3B;
 .govuk-breadcrumbs {
   margin-bottom: 30px;
   font-size: 15px;
+}
+
+// Agenda
+
+.agenda {
+  list-style: none;
+  padding: 0;
+  font-family: 'Inter UI', sans-serif;
+  font-size: 18px;
+  line-height: 1.45;
+  font-weight: 400;
+}
+
+.event-time {
+  font-weight: bold;
 }
 
 @media screen and (max-width: 640px) {
