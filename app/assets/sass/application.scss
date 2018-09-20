@@ -132,6 +132,7 @@ $govuk-typography-scale: (
 @import "components/cookie-banner";
 @import "components/card";
 @import "components/accordion";
+@import "components/agenda";
 
 // HOME OFFICE STYLES
 
@@ -172,37 +173,4 @@ $dark-grey: #3B3B3B;
 .govuk-breadcrumbs {
   margin-bottom: 30px;
   font-size: 15px;
-}
-
-// Agenda
-
-.agenda {
-  list-style: none;
-  padding: 0;
-  font-family: 'Inter UI', sans-serif;
-  font-size: 18px;
-  line-height: 1.45;
-  font-weight: 400;
-}
-
-.event-time {
-  font-weight: bold;
-}
-
-@media screen and (max-width: 640px) {
-  .hero {
-    margin: 10px 0 40px 0;
-
-    .govuk-grid-column-two-thirds {
-      padding: 0;
-    }
-
-    .govuk-body-l {
-      font-size: 18px;
-    }
-  }
-}
-
-.agenda-details {
-  padding-left: 1em;
 }
