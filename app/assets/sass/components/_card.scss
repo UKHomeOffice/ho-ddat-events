@@ -86,3 +86,61 @@ a.card__body {
   }
 
 }
+
+
+// new card
+* {
+  box-sizing: border-box;
+}
+
+.card-list {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+
+.card-list-item {
+  display: flex;
+  padding: 1em 0;
+	width: 100%;
+}
+
+
+
+.card-list-content {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1em 1em 2em;
+  width: 100%;
+  border-bottom: 3px solid #8F23B3;
+}
+
+.card-list-content p {
+  flex: 1 0 auto;
+}
+
+.card-list-content a {
+  color: $govuk-link-colour;
+
+  &:hover, &:focus {
+    cursor: pointer;
+    color: $govuk-link-hover-colour;
+  }
+}
+
+
+@media all and (min-width: 45em) {
+  .card-list-item {
+    width: 33.33%;
+    padding: 0.75em;
+  }
+
+  .card-list-item:first-child {
+    padding: 0.75em 0.75em 0.75em 0;
+  }
+
+  .card-list-item:last-child {
+    padding: 0.75em 0 0.75em 0.75em;
+  }
+}
