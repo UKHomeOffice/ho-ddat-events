@@ -133,6 +133,7 @@ $govuk-typography-scale: (
 @import "components/card";
 @import "components/accordion";
 @import "components/agenda";
+@import "components/venue";
 
 // HOME OFFICE STYLES
 
@@ -151,6 +152,10 @@ $dark-grey: #3B3B3B;
 .ho-body {
   background-color: $background-grey;
   font-size: 18px;
+}
+
+.govuk-caption-l {
+  color: #4e5456;
 }
 
 .hero {
