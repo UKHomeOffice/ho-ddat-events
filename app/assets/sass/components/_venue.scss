@@ -1,0 +1,21 @@
+.venue-details {
+  display: flex;
+  flex-basis: 0;
+  flex-grow: 1;
+  margin-bottom: 20px;
+
+  .map, .venue {
+    flex-basis: 50%;
+  }
+
+  .map img {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .venue-details {
+    display: block;
+    margin-bottom: 30px;
+  }
+}
