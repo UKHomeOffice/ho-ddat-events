@@ -193,11 +193,11 @@ $dark-grey: #3B3B3B;
   }
 
   .govuk-button {
-    
+    margin-bottom: 0;
   }
 
   .govuk-button--secondary {
-    background-color: #fff;
+    background-color: #dee0e2;
     position: relative;
     display: -moz-inline-stack;
     display: inline-block;
@@ -236,6 +236,15 @@ $dark-grey: #3B3B3B;
     color: #fff;
   }
 
+}
+
+@media screen and (max-width: 640px) {
+  .govuk-button--secondary {
+    width: 100%;
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 6px;
+  }
 }
 
 // Home page title
