@@ -211,13 +211,12 @@ $dark-grey: #3B3B3B;
 .main-event {
   background-color: #3b3b3b;
   border-bottom: #CDDB00 solid 6px;
-  padding: 2em 0 0 14em;
+  padding: 2em 0;
 
   p, a, h2 {
     color: #fff;
-
   }
-
+  
   .govuk-heading-xl {
     margin-bottom: 30px;
   }
@@ -226,5 +225,5 @@ $dark-grey: #3B3B3B;
 // Home page title
 
 .homepage-title {
-  padding: 1em 0 0 14em;
+  padding: 1em 0;
 }
