@@ -180,38 +180,6 @@ $dark-grey: #3B3B3B;
   font-size: 15px;
 }
 
-// Agenda
-
-.agenda {
-  list-style: none;
-  padding: 0;
-  font-family: 'Inter UI', sans-serif;
-  font-size: 18px;
-  line-height: 1.45;
-  font-weight: 400;
-}
-
-.event-time {
-  font-weight: bold;
-}
-
-@media screen and (max-width: 640px) {
-  .hero {
-    margin: 10px 0 40px 0;
-
-    .govuk-grid-column-two-thirds {
-      padding: 0;
-    }
-
-    .govuk-body-l {
-      font-size: 18px;
-    }
-  }
-}
-.agenda-details {
-  padding-left: 1em;
-
-}
 
 // Main event
 .main-event {
@@ -219,13 +187,21 @@ $dark-grey: #3B3B3B;
   border-bottom: #CDDB00 solid 6px;
   padding: 2em 0;
 
+  .govuk-heading-xl {
+    font-size: 3.8rem;
+    margin-bottom: 5px;
+  }
+
+  .main-event-sub {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ccc;
+  }
+
   p, a, h2 {
     color: #fff;
   }
-  
-  .govuk-heading-xl {
-    margin-bottom: 30px;
-  }
+
 }
 
 // Home page title
