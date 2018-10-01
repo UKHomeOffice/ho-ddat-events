@@ -184,6 +184,22 @@ footer {
   font-size: 15px;
 }
 
+.green-highlight {
+  border-bottom: #CDDB00 solid 6px;
+  display: inline-block;
+}
+
+.event-actions {
+  margin: 25px 0;
+
+  a {
+    display: block;
+  }
+  .govuk-button {
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+}
 
 // Main event
 .main-event {
