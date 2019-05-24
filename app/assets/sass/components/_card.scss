@@ -132,16 +132,17 @@ a.card__body {
 
 @media all and (min-width: 45em) {
   .card-list-item {
-    width: 33.33%;
-    // width: 50%;
+    // width: 33.33%;
+    width: 50%;
     padding: 0.75em;
   }
 
-  .card-list-item:first-child {
-    padding: 0.75em 0.75em 0.75em 0;
+  .card-list-item__100 {
+    width: 100%;
+    padding: 0.75em 0.75em 0.75em 0.75em;
   }
 
-  .card-list-item:last-child {
-    padding: 0.75em 0 0.75em 0.75em;
-  }
+  // .card-list-item:last-child {
+  //   padding: 0.75em 0 0.75em 0.75em;
+  // }
 }
