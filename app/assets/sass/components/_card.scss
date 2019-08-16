@@ -107,8 +107,12 @@ a.card__body {
 }
 
 .card-list-content ul li {
-		color: #0b0c0c;
-    		font-family: "Inter UI", sans-serif;
+	color: #0b0c0c;
+    	font-family: "Inter UI", sans-serif;
+	}
+
+.card-list-content ul  {
+	margin-bottom: 20px;
 	}
 
 .card-list-content {
@@ -120,9 +124,9 @@ a.card__body {
   border-bottom: 3px solid #8F23B3;
 }
 
-.card-list-content p {
-  flex: 1 0 auto;
-}
+//.card-list-content p {
+  // flex: 1 0 auto;
+// }
 
 .card-list-content a {
   color: $govuk-link-colour;
