@@ -15,10 +15,7 @@
   span {
     display: block;
   }
-	ul li {
-		color: #0b0c0c;
-    		font-family: "Inter UI", sans-serif;
-	}
+
 }
 
 a.card__body {
@@ -109,7 +106,10 @@ a.card__body {
 	width: 100%;
 }
 
-
+.card-list-content ul li {
+		color: #0b0c0c;
+    		font-family: "Inter UI", sans-serif;
+	}
 
 .card-list-content {
   background-color: #fff;
